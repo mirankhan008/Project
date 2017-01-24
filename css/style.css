@@ -1,0 +1,193 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+.container{
+	width:1000px;
+	margin:0 auto;
+}
+
+.header{
+	position: relative;
+}
+
+.top-header{
+    overflow: hidden;
+    padding: 30px 0px;
+    border-bottom: 2px solid rgba(0,0,0,.5);
+
+}
+
+.logo img {
+	float: left;
+}
+.logo h3{
+    float: left;
+    margin: 0;
+    padding: 10px 15px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.top-right-header{
+    position: absolute;
+    right: 57px;
+    transform: translateX(-50%);
+    --moz--transform: translateX(-50%);
+    --webkit--transform: translateX(-50%);
+}
+
+.top-right-header ul li{
+	 margin: 0px 10px;
+
+}
+
+.top-right-header ul li:first-child{
+	position: relative;
+}
+.click img{
+ position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+
+.nav ul li a{
+	    display: block;
+    padding: 20px 0px;
+    text-decoration: none;
+    color: #737373;
+    margin-right: 40px;
+
+}
+
+.nav ul li:first-child a{
+	color:green;
+}
+
+
+.bg{
+	position: relative;
+}
+.bg img{
+	max-width: 100%;
+	width: 100%;
+
+}
+
+.bg-img{
+ position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+}
+
+.paragraph{
+	position: relative;
+    top: 5em;
+
+}
+.paragraph p{
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0px;
+
+}
+
+.footer-top {
+    top: 10em;
+    position: relative;
+    background-color: #3c3134;
+    height: 100px;
+}
+
+.button{
+	    width: 20%;
+    margin: 0px auto;
+}
+
+button{
+	    background: #2ecc71;
+    border: 1px;
+    padding: 10px 20px;
+    font-size: 15px;
+    color:white;
+
+}
+
+.footer-top .container{
+	
+	position: relative;
+}
+.footer-top .container h3{
+     display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(95%);
+     --moz--transform: translateY(95%);
+      --webkit--transform: translateY(95%);
+
+}
+    
+.btn{
+     position: absolute;
+    right: -160px;
+    top: 32px;
+    transform: translateX(-50%);
+    --moz--transform: translateX(-50%);
+    --webkit--transform: translateX(-50%);
+}
+.caption{
+	position: relative;
+}
+
+
+
+.footer-bottom{
+position: relative;
+    top: 160px;
+        font-size: 10px;
+    color: grey;
+}
+.footer-bottom h4{
+    display: block;
+
+}
+
+.footer-bottom ul{
+    position: absolute;
+    right: 20px;
+    top: 0;
+     transform: translateX(-50%);
+    --moz--transform: translateX(-50%);
+    --webkit--transform: translateX(-50%);
+}
+
+.footer-bottom ul li a{
+    color: grey;
+    text-decoration: none;
+    padding: 0px 0px;
+    margin-left: 20px;
+}
+
+.footer-bottom li:nth-child(2n){
+	    display: inline-block;
+    padding-left: 10px;
+
+}
+
+img{
+    display: block;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    display:inline-block;
+}
